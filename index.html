@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="/js/myscript.js"></script>
+
+    <title>Behnavaz</title>
+</head>
+
+<body onresize="reload()">
+    <nav class="header">
+        <a href="#">
+            <svg width="64" height="43" viewBox="0 0 64 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M19.9801 33.5451C16.8077 30.2916 15.2514 26.3013 15.2514 21.6972C15.2514 17.0317 16.8676 13.0414 20.0999 9.78784"
+                    stroke="white" stroke-width="6" />
+                <path
+                    d="M11.1809 40.8177C6.10501 35.6386 3.61495 29.2867 3.61495 21.9577C3.61495 14.531 6.20078 8.17918 11.3724 3"
+                    stroke="white" stroke-width="6" />
+                <path
+                    d="M30.922 27.6226C29.8361 27.6226 28.8322 27.353 27.9103 26.814C26.9962 26.2749 26.2697 25.5483 25.7306 24.6343C25.1915 23.7124 24.922 22.7085 24.922 21.6226V16.8296L29.715 15.646V21.6226C29.715 21.9585 29.8322 22.2437 30.0665 22.478C30.3009 22.7124 30.5861 22.8296 30.922 22.8296H42.8986C43.2267 22.8296 43.504 22.7124 43.7306 22.478C43.965 22.2437 44.0822 21.9585 44.0822 21.6226V16.8296L48.8868 15.646V21.6226C48.8868 22.7085 48.6173 23.7124 48.0782 24.6343C47.5392 25.5483 46.8087 26.2749 45.8868 26.814C44.9728 27.353 43.9767 27.6226 42.8986 27.6226H30.922ZM35.0822 30.0015H38.6915V33.5757H35.0822V30.0015Z"
+                    fill="white" />
+            </svg>
+        </a>
+        <div class="header--nav">
+            <button class="btn">فروشگاه بانواز</button>
+            <button class="btn btn-dark hide-nav">ورود به داشبورد</button>
+            <button class="btn btn-white hide-nav">دانلود اپلیکیشن</button>
+            <div class="header--menu--icon" onclick="menu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul class="menu" id="clickmenu">
+            <li class="menu-list"><a href="">خانه</a></li>
+            <li class="menu-list"><a href="">فروشگاه</a></li>
+            <li class="menu-list"><a href="">درباره ما</a></li>
+        </ul>
+    </nav>
+
+    <section class="title">
+        <div class="title-image">
+            <div class="home-image"><img src="/asset/image/home.png" alt=""></div>
+            <div class="phone-image"><img src="/asset/image/iPhone 12 Mini 1.png" alt=""></div>
+        </div>
+        <div class="title-text">
+            <h1>خیالت از خونه راحت</h1>
+            <p>با نواز واژه ای کردی به معنای باخبر ساختن با صدای بلند است درست مثل بانواز<br> با سنسورهای بانواز از هیچ
+                چیز
+                اتفاقی بی خبر نیستی چه خونه باشی چه نه</p>
+            <button class="btn btn-blue">فروشگاه بانواز</button>
+        </div>
+    </section>
+    <section class="icon">
+        <div class="icon-div">
+            <a class="icon-img" href="#">
+                <img src="/asset/image/Vector.svg" alt="">
+            </a>
+            <p>درب و پنجره</p>
+        </div>
+        <div class="icon-div">
+            <a class="icon-img" href="#">
+                <img src="/asset/image/Vector2.svg" alt="">
+            </a>
+            <p>گل و گیاه</p>
+        </div>
+        <div class="icon-div">
+            <a class="icon-img" href="#">
+                <img src="/asset/image/Vector3.svg" alt="">
+            </a>
+            <p>وسایل برقی</p>
+        </div>
+        <div class="icon-div">
+            <a class="icon-img" href="#">
+                <img src="/asset/image/Vector (1).svg" alt="">
+            </a>
+            <p>روشنایی</p>
+        </div>
+        <div class="icon-div">
+            <a class="icon-img" href="#">
+                <img src="/asset/image/Vector (2).svg" alt="">
+            </a>
+            <p>گرمایی</p>
+        </div>
+        <div class="icon-div">
+            <a class="icon-img" href="#">
+                <img src="/asset/image/Vector (3).svg" alt="">
+            </a>
+            <p>حیوانات</p>
+        </div>
+    </section>
+    <section class="smart-home">
+        <img src="/asset/image/smarthome.png" alt="">
+        <h1>مدیریت با دستگاه مرکزی</h1>
+        <p>بانواز برای مدیریت و کنترل سنسورهای خودش از یک دستگاه مرکزی استفاده می کنه که همه چیز تحت کنترل
+            همین دستگاه
+            مرکزیه. دستگاه به کمک ایننرنت
+            به گوشی شما متصل میشه و شما می تونین همه چبز رو تحت کنترل خودتون بگیرین.
+        </p>
+    </section>
+    <section class="baby">
+        <div class="baby-content">
+            <h1>دارای تنظیمات مخصوص کودکان !</h1>
+            <p>نگران تغییر تنظیمات بانواز توسط فرزند عزیزت نباش!</p>
+            <button class="btn">فروشگاه بانواز</button>
+            <button class="btn hid-btn">دانلود بروشور</button>
+        </div>
+    </section>
+    <section class="manage">
+        <div class="manage-img">
+            <img src="/asset/image/iPhone 12 Mini.png" alt="">
+        </div>
+        <div class="manage-content">
+            <h1>مدیریت خانه روی گوشی!</h1>
+            <p>با دانلود اپلیکیشن بانواز می تونی تمامی سنسورهارو روی گوشیت مشاهده و کنترل کنی.</p>
+            <button class="btn">فروشگاه بانواز</button>
+            <button class="btn hid-btn">دانلود اپلیکیشن</button>
+        </div>
+    </section>
+    <section class="feachers">
+        <div class="feachers-title">
+            <h1 class="hid-h1">قابلیت های ویژه بانواز</h1>
+        </div>
+        <div class="feachers-item">
+            <div class="feachers-item-content">
+                <img src="/asset/image/cat.png" alt="">
+                <p>سنسورهایی که برای حیوان های خانگی شما نصب میشن می تونن با هوش مصنوعی گرسنه بودن اون رو تشخیص بدن.</p>
+            </div>
+            <div class="feachers-item-content">
+                <img src="/asset/image/flower.png" alt="">
+                <p>با محاسبه حرارت اطراف خاک گیاهان میشه فهمید کی باید دوباره به گیاه ها اب بدی.</p>
+            </div>
+            <div class="feachers-item-content">
+                <img src="/asset/image/elec.png" alt="">
+                <p>میتونی مدت زمان روشن بودن دستگاه های الکتریکی رو کنترل کنی. یا حتی برای روشن بودن اونها از بانواز کمک
+                    بگیری.</p>
+            </div>
+            <div class="feachers-item-content">
+                <img src="/asset/image/door.png" alt="">
+                <p>باز و بسته شدن درب ها و پنجره ها، تشخیص حضور انسان و کلی قابلیت دیگه در سنسورهای بانواز!</p>
+            </div>
+        </div>
+    </section>
+    <section class="friends">
+        <div class="friends-content">
+            <h1>رفقای بانواز!</h1>
+            <p>ما افتخار همکاری با بیش از ده ها شرکت رو در بانواز داریم.</p>
+        </div>
+        <div class="friends-img">
+            <img src="/asset/image/circle.png" alt="">
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-up">
+            <div class="footer-up-links">
+                <ul class="footer-up-links-items">
+                    <li><a href="#">بانواز</a></li>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#">فروشگاه</a></li>
+                    <li><a href="#">ورود به داشبورد</a></li>
+                </ul>
+            </div>
+            <div class="footer-up-links">
+                <ul class="footer-up-links-items">
+                    <li><a href="#">فروشگاه</a></li>
+                    <li><a href="#">دستگاه مرکزی</a></li>
+                    <li><a href="#">سنسورهای داخلی</a></li>
+                    <li><a href="#">سنسورهای خارجی</a></li>
+                </ul>
+            </div>
+            <div class="footer-up-links">
+                <ul class="footer-up-links-items">
+                    <li><a href="#">بانواز</a></li>
+                    <li><a href="#">درباره بانواز</a></li>
+                    <li><a href="#">وبلاگ</a></li>
+                    <li><a href="#">موقعیت های شغلی</a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                </ul>
+            </div>
+            <div class="footer-up-icons">
+                <h2>دانلود اپلیکیشن</h2>
+                <a href="#"><img src="/asset/image/Google Play Badge.png" alt=""></a>
+                <a href="#"><img src="/asset/image/App Store Badge.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-down">
+            <div class="footer-down-icons">
+                <a href="">
+                    <div><img src="/asset/image/youtube.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="/asset/image/twitter.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="/asset/image/dribble.png" alt=""></div>
+                </a>
+                <a href="">
+                    <div><img src="/asset/image/insta.png" alt=""></div>
+                </a>
+            </div>
+            <div class="footer-down-content">
+                <p>تمامی حقوق متعلق به بانواز می باشد</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+</html>
